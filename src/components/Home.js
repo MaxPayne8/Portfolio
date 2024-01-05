@@ -21,7 +21,7 @@ const Home = () => {
             like React, Redux and Tailwind.
           </p>
           <div>
-            <button className="flex items-center w-fit px-6 py-3 my-6 md:my-2 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg group">
+            <button className="flex items-center w-fit px-6 py-3 my-6 md:my-2 bg-gradient-to-r from-violet-800 to-blue-500 rounded-lg group">
               Portfolio
               <span className="group-hover:rotate-90 duration-300 ">
                 <MdOutlineKeyboardArrowRight size={25} />
