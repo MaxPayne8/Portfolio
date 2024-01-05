@@ -1,17 +1,28 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { FaTimes, FaBars } from "react-icons/fa";
+import { Link } from "react-scroll";
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Navbar = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const [nav, setNav] = useState(false);
 
   const links = [
-    { id: 1, link: "Home" },
-    { id: 2, link: "About" },
-    { id: 3, link: "Projects" },
-    { id: 4, link: "Tech-Stack" },
-    { id: 5, link: "Contact" },
+    { id: 1, link: "home" },
+    { id: 2, link: "about" },
+    { id: 3, link: "projects" },
+    { id: 4, link: "tech-Stack" },
+    { id: 5, link: "contact" },
   ];
   return (
-    <div className="flex justify-between h-20 bg-black items-center text-slate-200 fixed w-full px-4">
+    <div
+      className="flex justify-between h-20 bg-black items-center text-slate-200 fixed w-full px-4 z-10"
+      data-aos="fade-down"
+      data-aos-duration="300"
+    >
       <div>
         <h1 className="text-5xl font-signature ml-2">Zatin</h1>
       </div>
@@ -19,9 +30,11 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="py-2 px-8 hover:cursor-pointer font-medium  text-slate-500 hover:scale-105 hover:text-slate-200 duration-150"
+            className="py-2 capitalize px-8 hover:cursor-pointer font-medium  text-slate-500 hover:scale-105 hover:text-slate-200 duration-150"
           >
-            {link}
+            <Link to={link} smooth duration={500}>
+              {link}
+            </Link>
           </li>
         ))}
       </ul>
@@ -39,9 +52,16 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="p-2 hover:cursor-pointer font-medium text-4xl py-6 hover:scale-105 text-slate-200 duration-150"
+              className="p-2 capitalize hover:cursor-pointer font-medium text-4xl py-6 hover:scale-105 text-slate-200 duration-150"
             >
-              {link}
+              <Link
+                to={link}
+                smooth
+                duration={500}
+                onClick={() => setNav(false)}
+              >
+                {link}
+              </Link>
             </li>
           ))}
         </ul>

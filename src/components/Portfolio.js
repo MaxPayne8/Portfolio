@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import netflix from "../images/netflix.png";
 import nike from "../images/nike.png";
 import youtube from "../images/youtube.jpeg";
 import notes from "../images/notes.png";
 import swiggy from "../images/swiggy.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   const portfolios = [
     {
       id: 1,
@@ -51,7 +57,7 @@ const Portfolio = () => {
 
   return (
     <div
-      name="portfolio"
+      name="projects"
       className="bg-gradient-to-b from-black to-gray-800 w-full  md:min-h-screen"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
@@ -66,7 +72,12 @@ const Portfolio = () => {
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
           {portfolios.map(({ id, src, github, live, title, desc }) => (
-            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
+            <div
+              key={id}
+              className="shadow-md shadow-gray-600 rounded-lg"
+              data-aos="fade-left"
+              data-aos-duration="300"
+            >
               <img
                 src={src}
                 alt=""

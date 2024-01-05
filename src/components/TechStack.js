@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import html from "../images/html.png";
 import css from "../images/css.png";
@@ -10,8 +10,14 @@ import github from "../images/github.png";
 import tailwind from "../images/tailwind.png";
 import firebase from "../images/firebase.jpg";
 import reactRouter from "../images/reactRouter.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const TechStack = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
+
   const techs = [
     {
       id: 1,
@@ -77,7 +83,7 @@ const TechStack = () => {
 
   return (
     <div
-      name="techstack"
+      name="tech-Stack"
       className="bg-gradient-to-b from-gray-800 to-black w-full min-h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
@@ -91,6 +97,8 @@ const TechStack = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0">
           {techs.map(({ id, src, title, style }) => (
             <div
+              data-aos="fade-right"
+              data-aos-duration="300"
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
