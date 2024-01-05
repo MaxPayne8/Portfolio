@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" h-screen w-full  bg-gradient-to-b from-black via-black to-gray-800 pt-24  "
+      className=" h-screen w-full  bg-gradient-to-b from-black via-black to-gray-800 pt-24 md:pt-0 "
       data-aos="zoom-in"
       data-aos-duration="200"
     >
