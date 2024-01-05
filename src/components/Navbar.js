@@ -6,8 +6,8 @@ const Navbar = () => {
   const links = [
     { id: 1, link: "Home" },
     { id: 2, link: "About" },
-    { id: 3, link: "Portfolio" },
-    { id: 4, link: "Projects" },
+    { id: 3, link: "Projects" },
+    { id: 4, link: "Tech-Stack" },
     { id: 5, link: "Contact" },
   ];
   return (
