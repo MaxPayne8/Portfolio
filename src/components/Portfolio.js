@@ -27,7 +27,7 @@ const Portfolio = () => {
       github: "https://github.com/MaxPayne8/Shoes-Store",
       live: "https://shoes-store-jet.vercel.app/",
       title: "Nike-Store",
-      desc: "Beautiful Nike store for every Sneaker Head",
+      desc: "Beautiful Shoes store for every Sneaker Head",
     },
     {
       id: 3,

@@ -14,7 +14,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className=" h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 pt-20  "
+      className=" h-screen w-full  bg-gradient-to-b from-black via-black to-gray-800 pt-24  "
       data-aos="zoom-in"
       data-aos-duration="200"
     >
@@ -60,7 +60,7 @@ const Home = () => {
             alt="hero"
           />
           <label className="absolute bottom-[58px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
-            Hi, Thanks for visting my portfolio, Have a nice day!!
+            Hi😊, Thanks for visting my portfolio, Have a nice day🌻
           </label>
         </div>
       </div>
