@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import heroImg from "../images/heroImg.png";
+// import goku from "../images/goku.png";
 import { Link } from "react-scroll";
 
 import Typewriter from "typewriter-effect";
@@ -20,10 +21,10 @@ const Home = () => {
     >
       <div
         className=" mx-auto flex flex-col
-           justify-center items-center h-full px-10 text-slate-300 md:flex-row max-w-screen-lg"
+           justify-center items-center h-full px-10  text-slate-300 md:flex-row max-w-[80%]"
       >
         <div className=" text-left w-4/5">
-          <h2 className=" text-4xl font-bold">
+          <h2 className=" text-4xl mt-10 font-bold">
             <Typewriter
               options={{
                 strings: [
