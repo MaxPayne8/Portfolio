@@ -74,7 +74,7 @@ const Portfolio = () => {
           {portfolios.map(({ id, src, github, live, title, desc }) => (
             <div
               key={id}
-              className="shadow-md shadow-gray-600 rounded-lg w-52 sm:w-72 p-6 "
+              className="shadow-md shadow-gray-600 rounded-lg w-72 sm:w-80  p-6 "
               data-aos="fade-left"
             >
               <img
@@ -86,7 +86,7 @@ const Portfolio = () => {
               <h1 className="p-2 text-slate-300 ">{desc}</h1>
               <div className="flex items-center justify-center">
                 <a
-                  className="w-1/2 px-6 py-3 m-4 text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
+                  className="w-1/2 px-6 m-4 text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
                   href={live}
                   target="_blank"
                   rel="noreferrer"
@@ -94,7 +94,7 @@ const Portfolio = () => {
                   Demo
                 </a>
                 <a
-                  className="w-1/2 px-6 py-3 m-4 text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
+                  className="w-1/2 px-6  text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
                   href={github}
                   target="_blank"
                   rel="noreferrer"
