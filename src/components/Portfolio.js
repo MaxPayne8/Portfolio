@@ -70,7 +70,7 @@ const Portfolio = () => {
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-evenly overflow-hidden  ">
+        <div className="flex flex-wrap justify-evenly overflow-hidden pb-10  ">
           {portfolios.map(({ id, src, github, live, title, desc }) => (
             <div
               key={id}
