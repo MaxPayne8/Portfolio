@@ -20,6 +20,7 @@ const Portfolio = () => {
       live: "https://netflixxgpt.netlify.app",
       title: "Netflix-GPT",
       desc: "Netflix with Open AI as movie recommendation System",
+      importance: "⭐",
     },
     {
       id: 2,
@@ -28,6 +29,7 @@ const Portfolio = () => {
       live: "https://shoes-store-jet.vercel.app/",
       title: "Nike-Store",
       desc: "Beautiful Shoes store for every Sneaker Head",
+      importance: "⭐",
     },
     {
       id: 3,
@@ -71,39 +73,44 @@ const Portfolio = () => {
         </div>
 
         <div className="flex flex-wrap justify-evenly overflow-hidden pb-10  ">
-          {portfolios.map(({ id, src, github, live, title, desc }) => (
-            <div
-              key={id}
-              className="shadow-md shadow-gray-600 rounded-lg w-72 sm:w-80  p-6 "
-              data-aos="fade-left"
-            >
-              <img
-                src={src}
-                alt=""
-                className="rounded-md w-full duration-200 hover:scale-105"
-              />
-              <h1 className="p-2 text-white text-2xl">{title}</h1>
-              <h1 className="p-2 text-slate-300 ">{desc}</h1>
-              <div className="flex items-center justify-center">
-                <a
-                  className="w-1/2 px-6 m-4 text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
-                  href={live}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Demo
-                </a>
-                <a
-                  className="w-1/2 px-6  text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
-                  href={github}
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Code
-                </a>
+          {portfolios.map(
+            ({ id, src, github, live, title, desc, importance }) => (
+              <div
+                key={id}
+                className="shadow-md shadow-gray-600 rounded-lg w-72 sm:w-80  p-6 "
+                data-aos="fade-left"
+              >
+                <img
+                  src={src}
+                  alt=""
+                  className="rounded-md w-full duration-200 hover:scale-105"
+                />
+                <h1 className="p-2 text-white text-2xl">
+                  {title}
+                  {importance}
+                </h1>
+                <h1 className="p-2 text-slate-300 ">{desc}</h1>
+                <div className="flex items-center justify-center">
+                  <a
+                    className="w-1/2 px-6 m-4 text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
+                    href={live}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Demo
+                  </a>
+                  <a
+                    className="w-1/2 px-6  text-slate-400 hover:scale-105 hover:text-slate-200 duration-150 hover:text-lg"
+                    href={github}
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Code
+                  </a>
+                </div>
               </div>
-            </div>
-          ))}
+            )
+          )}
         </div>
       </div>
     </div>
