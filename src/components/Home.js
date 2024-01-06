@@ -20,7 +20,7 @@ const Home = () => {
     >
       <div
         className=" mx-auto flex flex-col
-           justify-center items-center  h-full  px-10 text-slate-300 md:flex-row max-w-screen-lg "
+           justify-center items-center h-full px-10 text-slate-300 md:flex-row max-w-screen-lg"
       >
         <div className=" text-left w-4/5">
           <h2 className=" text-4xl font-bold">

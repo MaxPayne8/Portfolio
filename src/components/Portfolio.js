@@ -76,7 +76,6 @@ const Portfolio = () => {
               key={id}
               className="shadow-md shadow-gray-600 rounded-lg"
               data-aos="fade-left"
-              data-aos-duration="300"
             >
               <img
                 src={src}

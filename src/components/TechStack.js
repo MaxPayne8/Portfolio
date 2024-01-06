@@ -98,7 +98,6 @@ const TechStack = () => {
           {techs.map(({ id, src, title, style }) => (
             <div
               data-aos="fade-right"
-              data-aos-duration="300"
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
