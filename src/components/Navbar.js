@@ -24,7 +24,9 @@ const Navbar = () => {
       data-aos-duration="300"
     >
       <div>
+        <Link to={"home"} smooth duration={500}>
         <h1 className="text-5xl font-signature ml-2">Zatin</h1>
+        </Link>
       </div>
       <ul className="hidden md:flex  ">
         {links.map(({ id, link }) => (
