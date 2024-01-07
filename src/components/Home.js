@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import heroImg from "../images/heroImg.png";
-// import goku from "../images/goku.png";
+import heroImg1 from "../images/heroImg1.jpg";
+
 import { Link } from "react-scroll";
 
 import Typewriter from "typewriter-effect";
@@ -57,10 +57,10 @@ const Home = () => {
         <div className="relative group">
           <img
             className="w-56 h-64  rounded-xl  cursor-pointer border-2 border-white"
-            src={heroImg}
+            src={heroImg1}
             alt="hero"
           />
-          <label className="absolute bottom-[58px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
+          <label className="absolute bottom-[52px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
             Hi😊, Thanks for visting my portfolio, Have a nice day🌻
           </label>
         </div>
