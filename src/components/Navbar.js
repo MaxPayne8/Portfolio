@@ -25,7 +25,7 @@ const Navbar = () => {
     >
       <div>
         <Link to={"home"} smooth duration={500}>
-        <h1 className="text-5xl font-signature ml-2">Zatin</h1>
+        <h1 className="text-5xl font-signature ml-2 hover:cursor-pointer">Zatin</h1>
         </Link>
       </div>
       <ul className="hidden md:flex  ">
