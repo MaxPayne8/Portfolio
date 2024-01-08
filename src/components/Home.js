@@ -58,7 +58,7 @@ const Home = () => {
             src={heroImg1}
             alt="hero"
           />
-          <label className="absolute bottom-[52px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
+          <label className="absolute bottom-[56px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
             Hi😊, Thanks for visting my portfolio, Have a nice day🌻
           </label>
         </div>
