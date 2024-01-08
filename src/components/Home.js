@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import heroImg1 from "../images/heroImg1.jpg";
+import heroImg1 from "../images/heroImg1.png";
 import { Link } from "react-scroll";
 import Typewriter from "typewriter-effect";
 import Aos from "aos";
