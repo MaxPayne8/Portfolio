@@ -24,14 +24,15 @@ const About = () => {
           data-aos="zoom-in"
           data-aos-duration="300"
         >
-          Greetings, My name is Zatin Pandey, I did my Btech(CSE) from SRM
-          University, Chennai and currently I'm pursuing Mtech(CSE) from Manipal
-          Institute of Technology, Manipal. I was always amazed by the idea of
-          creating web applications and making them look awesome while adding
-          amazing features to it ,I believe that I have a lot to learn in this
-          fantastic domain and I try to learn and work on new technologies
-          everyday , Other than that I like to dance and cook in my leisure
-          time.Cheers!!
+          Greetings, I'm Zatin Pandey. I hold a BTech in Computer Science and
+          Engineering from SRM University, Chennai, and I'm currently pursuing
+          my MTech in CSE from Manipal Institute of Technology, Manipal. My
+          passion lies in creating dynamic, user-centric web applications,
+          blending sleek design with robust functionality. I continuously expand
+          my skill set by exploring new technologies, and I’m proficient in a
+          wide range of tools including React, Redux, Node.js, Docker, and
+          Kubernetes. Beyond tech, I enjoy expressing creativity through dance
+          and cooking. Cheers!
         </p>
       </div>
     </div>

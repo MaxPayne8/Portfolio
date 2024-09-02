@@ -26,8 +26,8 @@ const Home = () => {
             <Typewriter
               options={{
                 strings: [
-                  "I'm a Frontend Developer!!",
-                  "I love to build web applications!!",
+                  "I'm a Full Stack Developer!!",
+                  "I love to build web applications and Microservices!!",
                 ],
                 autoStart: true,
                 loop: true,
@@ -35,10 +35,13 @@ const Home = () => {
             ></Typewriter>
           </h2>
           <p className="text-slate-400">
-            I'm passionate about creating great user experiences and have a
-            strong understanding of usability and accessibility standards.
-            Currently, I love to work on web applications using technologies
-            like React, Redux and Tailwind.
+            I'm passionate about creating exceptional user experiences and have
+            a strong foundation in usability and accessibility standards. I
+            excel in developing web applications using a modern tech stack,
+            including React, Redux, and Tailwind CSS, with proficiency in
+            TypeScript, Node.js, Express, Docker, Kubernetes, and MongoDB. My
+            work is driven by a commitment to building responsive, performant,
+            and user-centric applications.
           </p>
           <div>
             <Link to={"projects"} smooth duration={500}>

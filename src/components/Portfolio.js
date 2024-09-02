@@ -15,15 +15,31 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
+      src: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKpoqlUeRaYCH4ryNlggZvO9qcOsFlj2fWmw&s",
+      github: "https://github.com/MaxPayne8/ticketing",
+
+      title: "Ticketing(Based on Microservices Architecture)",
+      desc: "This project was built on a Microservices Architecture using Node.js and React, with Docker and Kubernetes for containerizing each service. NATS Streaming Server was implemented for event-driven communication between the services.",
+    },
+    {
+      id: 2,
+      src: "https://thewomenleaders.com/wp-content/uploads/2021/11/S.png",
+      github: "https://github.com/MaxPayne8/NASA_SPACEX",
+
+      title: "Nasa-SpaceX Rocket Launcher Dashboard",
+      desc: "In this project, the entire frontend was developed using React and libraries like Arwes, while the backend followed Node.js MVC architecture. The SpaceX API was integrated to fetch historical rocket launches, and users could also schedule new rocket launches to any of Kepler’s habitable planets, which were identified using data from the Kepler CSV file.",
+    },
+    {
+      id: 3,
       src: netflix,
       github: "https://github.com/MaxPayne8/Netflix-GPT",
-      live: "https://netflixxgpt.netlify.app",
+      live: "https://netfflixxxxgpt.netlify.app/",
       title: "Netflix-GPT",
       desc: "Netflix with Open AI as movie recommendation System",
       importance: "⭐",
     },
     {
-      id: 2,
+      id: 4,
       src: nike,
       github: "https://github.com/MaxPayne8/Shoes-Store",
       live: "https://shoes-store-jet.vercel.app/",
@@ -32,28 +48,28 @@ const Portfolio = () => {
       importance: "⭐",
     },
     {
-      id: 3,
-      src: youtube,
-      github: "https://github.com/MaxPayne8/Youtube-Clone",
-      live: "https://youtube-clone-jade-pi.vercel.app/",
-      title: "Youtube-Clone",
-      desc: "Live Youtube Apis ,Live Search Bar using Debouncing, Live chat using API Polling, Nested Comments using recursion",
-    },
-    {
-      id: 4,
-      src: swiggy,
-      github: "https://github.com/MaxPayne8/Swiggy",
-      live: "https://swiggy008.vercel.app/",
-      title: "Food-Order-App",
-      desc: "Made using the complex Live Swiggy Api",
-    },
-    {
       id: 5,
+      src: "https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/272908087/original/d82064937361c7fd199c36e87d79062d927f5d5d/create-a-custom-qr-code-with-your-logo-in-the-background.jpg",
+      github: "https://github.com/MaxPayne8/QrCodeGenerator",
+      live: "https://qrbar.vercel.app/",
+      title: "QR Code Generator",
+      desc: "Cutomizable Qr code Generator, Bar Code Generator and NFC Tag reader.",
+    },
+    {
+      id: 6,
       src: notes,
       github: "https://github.com/MaxPayne8/Notes",
       live: "https://notes-ecru-six.vercel.app/",
       title: "Take-notes",
       desc: "Simple note taking App using CRUD operations",
+    },
+    {
+      id: 7,
+      src: youtube,
+      github: "https://github.com/MaxPayne8/Youtube-Clone",
+      live: "https://youtube-clone-jade-pi.vercel.app/",
+      title: "Youtube-Clone",
+      desc: "Live Youtube Apis ,Live Search Bar using Debouncing, Live chat using API Polling, Nested Comments using recursion",
     },
   ];
 
