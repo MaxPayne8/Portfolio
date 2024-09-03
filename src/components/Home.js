@@ -38,11 +38,20 @@ const Home = () => {
             I'm passionate about creating exceptional user experiences and have
             a strong foundation in usability and accessibility standards. I
             excel in developing web applications using a modern tech stack,
-            including React, Redux, and Tailwind CSS, with proficiency in
-            TypeScript, Node.js, Express, Docker, Kubernetes, and MongoDB. My
+            including <span className="font-semibold text-blue-300">React</span>
+            , <span className="font-semibold text-blue-300">Redux</span>, and{" "}
+            <span className="font-semibold text-blue-300">Tailwind CSS</span>,
+            with proficiency in{" "}
+            <span className="font-semibold text-blue-300">TypeScript</span>,{" "}
+            <span className="font-semibold text-blue-300">Node.js</span>,{" "}
+            <span className="font-semibold text-blue-300">Express</span>,{" "}
+            <span className="font-semibold text-blue-300">Docker</span>,{" "}
+            <span className="font-semibold text-blue-300">Kubernetes</span>, and{" "}
+            <span className="font-semibold text-blue-300">MongoDB</span>. My
             work is driven by a commitment to building responsive, performant,
             and user-centric applications.
           </p>
+
           <div>
             <Link to={"projects"} smooth duration={500}>
               <button className="flex items-center w-fit px-6 py-3 my-6 md:my-2 bg-gradient-to-r from-violet-800 to-blue-500 rounded-lg group">
@@ -57,12 +66,12 @@ const Home = () => {
 
         <div className="relative group">
           <img
-            className="w-56 h-64  rounded-xl  cursor-pointer border-2 border-white"
+            className="w-64 h-72 md:w-72 md:h-80 rounded-2xl cursor-pointer shadow-lg transition-transform transform hover:scale-105"
             src={heroImg1}
             alt="hero"
           />
-          <label className="absolute bottom-[56px] w-3/4 rounded-e-2xl rounded-b-2xl -right-16 font-medium  bg-blue-700 opacity-0 group-hover:opacity-100 transition-opacity ease-in-out duration-300">
-            Hi😊, Thanks for visting my portfolio, Have a nice day🌻
+          <label className="absolute bottom-40 left-1/2 transform -translate-x-1/2 translate-y-full w-5/6 rounded-lg font-medium text-center text-white bg-blue-600 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ease-in-out shadow-md p-2">
+            Hi 😊, Thanks for visiting my portfolio. Have a nice day 🌻
           </label>
         </div>
       </div>

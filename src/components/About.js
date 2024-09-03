@@ -19,15 +19,17 @@ const About = () => {
           </p>
         </div>
 
-        <p
-          className="text-xl pt-10 "
-          data-aos="zoom-in"
-          data-aos-duration="300"
-        >
+        <p className="text-xl pt-10" data-aos="zoom-in" data-aos-duration="300">
           Greetings, I'm Zatin Pandey. I hold a BTech in Computer Science and
-          Engineering from SRM University, Chennai, and I'm currently pursuing
-          my MTech in CSE from Manipal Institute of Technology, Manipal. My
-          passion lies in creating dynamic, user-centric web applications,
+          Engineering from{" "}
+          <span className="font-semibold text-blue-300">
+            SRM University, Chennai
+          </span>
+          , and I'm currently pursuing my MTech in CSE from{" "}
+          <span className="font-semibold text-blue-300">
+            Manipal Institute of Technology, Manipal
+          </span>
+          . My passion lies in creating dynamic, user-centric web applications,
           blending sleek design with robust functionality. I continuously expand
           my skill set by exploring new technologies, and I’m proficient in a
           wide range of tools including React, Redux, Node.js, Docker, and
